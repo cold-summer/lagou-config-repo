@@ -1,4 +1,10 @@
-#mysql:
-  #url: dev-http://localhost:3306/db600
+mysql:
+  url: dev-http://localhost:3306/db600
 lagou:
   message: hello lagou,600
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/my_db?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
